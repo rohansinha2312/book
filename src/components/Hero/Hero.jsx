@@ -12,7 +12,7 @@ export const Hero = () => {
 
         Read For<br /> Free Today!</h1>
         <p className={styles.description}>
-        The fastest way to learn a Java on the market. For free! Straight to the point explanations, 7 projects, practice questions, and more in 50 pages. Unleash your coding ability faster than ever.
+        The fastest way to learn Java on the market. For free! Straight to the point explanations, 7 projects, practice questions, and more in 50 pages. Unleash your coding ability faster than ever.
         </p>
         <Link to="/read" className={styles.contactBtn}>
           Read Now
