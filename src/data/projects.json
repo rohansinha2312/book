@@ -1,0 +1,10 @@
+[
+  {
+    "title": "JAVA",
+    "imageSrc": "hero/Java.png",
+    "description": "This is a book on the fundamentals of Java.",
+    "skills": [""],
+    "demo": "",
+    "source": "https://www.github.com"
+  }
+]

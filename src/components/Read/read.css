@@ -1,0 +1,189 @@
+.container {
+  position: relative; /* Ensure it acts as a reference for absolute positioning */
+  min-height: 100vh;  /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  padding: 0;
+}
+.download-button {
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #ff9900;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #e58900;
+}
+
+.download-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.pdf-iframe {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 40%;
+  height: 750px;
+  max-width: 90%;
+}
+
+.contact-section {
+  position: absolute; /* Make it stick at the absolute bottom */
+  bottom: 0;          /* Align to the bottom of the viewport */
+  left: 0;            /* Align to the left */
+  width: 100%;        /* Full screen width */
+  text-align: center; /* Center text */
+  background-color: #19376d;
+  color: white;
+  padding: 10px 0;    /* Adjust padding for spacing */
+}
+
+@media screen and (max-width: 1024px) {
+  .pdf-iframe {
+    width: 60%;
+    height: 650px;
+  }
+
+  .download-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .download-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pdf-iframe {
+    width: 80%;
+    height: 500px;
+  }
+
+  .download-button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pdf-iframe {
+    width: 100%;
+    height: 400px;
+  }
+
+  .download-button {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .download-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .pdf-iframe {
+    width: 50%;
+    height: 850px;
+  }
+
+  .download-button {
+    font-size: 18px;
+    padding: 12px 24px;
+  }
+
+  .download-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .pdf-iframe {
+    width: 60%;
+    height: 900px;
+  }
+
+  .download-button {
+    font-size: 20px;
+    padding: 14px 28px;
+  }
+
+  .download-icon {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .pdf-iframe {
+    width: 65%;
+    height: 950px;
+  }
+
+  .download-button {
+    font-size: 22px;
+    padding: 16px 32px;
+  }
+
+  .download-icon {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .pdf-iframe {
+    width: 70%;
+    height: 1000px;
+  }
+
+  .download-button {
+    font-size: 24px;
+    padding: 18px 36px;
+  }
+
+  .download-icon {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media screen and (min-width: 3840px) {
+  .pdf-iframe {
+    width: 75%;
+    height: 1100px;
+  }
+
+  .download-button {
+    font-size: 26px;
+    padding: 20px 40px;
+  }
+
+  .download-icon {
+    width: 40px;
+    height: 40px;
+  }
+}

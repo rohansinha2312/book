@@ -1,0 +1,127 @@
+.authorsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 50px 20px;
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: --color-bg;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 42px;
+  /* Larger title font */
+  font-weight: 700;
+  color: #ffffff;
+  /* White text */
+  margin-bottom: 40px;
+  z-index: 3;
+}
+
+/* Cards container styling */
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* Space between cards */
+  width: 100%;
+  max-width: 900px;
+  /* Limit the width for better alignment */
+}
+
+/* Individual card styling */
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(12, 12, 12, 0.6);
+  /* Translucent dark background */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  /* Subtle shadow for depth */
+  padding: 30px;
+  gap: 20px;
+  z-index: 3;
+  /* Space between image and text */
+}
+
+/* Author image styling */
+.authorImage {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 20px;
+  /* Circular image */
+}
+
+/* Card text content styling */
+.cardContent {
+  flex: 1;
+  text-align: left;
+}
+
+.cardContent h3 {
+  font-size: 24px;
+  /* Larger font size for the name */
+  color: #ffffff;
+  /* White text */
+  margin-bottom: 10px;
+}
+
+.cardContent p {
+  font-size: 18px;
+  /* Larger font size for the paragraph */
+  color: #ffffff;
+  /* White text */
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .authorImage {
+    margin-bottom: 15px;
+  }
+
+  .cardContent {
+    text-align: center;
+  }
+}
+
+.topBlur {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  min-width: 350px;
+  top: -128px;
+  left: -10vw;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+.bottomBlur {
+  position: absolute;
+  width: 70vw;
+  height: 50vw;
+  min-width: 350px;
+  top: 246px;
+  right: -25vw;
+  border-radius: 764px;
+  background: rgb(26, 58, 117, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
