@@ -18,7 +18,7 @@ function PDFViewer() {
     >
       {/* Download Button */}
       <a
-        href="https://drive.google.com/uc?export=download&id=19c2YoEdrKnZo1H9C5n8FtWsFAhIDD1iO"
+        href='https://drive.google.com/uc?export=download&id=19c2YoEdrKnZo1H9C5n8FtWsFAhIDD1iO'
         download
         style={{
           textDecoration: "none",

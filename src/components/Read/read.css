@@ -43,11 +43,11 @@
 }
 
 .contact-section {
-  position: absolute; /* Make it stick at the absolute bottom */
-  bottom: 0;          /* Align to the bottom of the viewport */
-  left: 0;            /* Align to the left */
-  width: 100%;        /* Full screen width */
-  text-align: center; /* Center text */
+  position: absolute; 
+  bottom: 0;          
+  left: 0;          
+  width: 100%;     
+  text-align: center;
   background-color: #19376d;
   color: white;
   padding: 10px 0;    /* Adjust padding for spacing */
