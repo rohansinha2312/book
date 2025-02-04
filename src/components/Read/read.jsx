@@ -50,7 +50,7 @@ function PDFViewer() {
 
       {/* Embedded PDF */}
       <iframe
-        src="https://drive.google.com/file/d/1e0KKkJkN7BU1E50PRopt_wskyy2iaImJ/preview"
+        src="https://drive.google.com/file/d/1noc5H8KALcj6k6ofKeaK0RZDDBT_-23R/preview"
         width="40%"
         height="750px"
         
